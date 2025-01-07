@@ -81,13 +81,13 @@ jobs:
           exit 1
         fi
   
-    - name: Deploy to CloudHub
+    - name: Deploy to Sandbox
       env:
-        USERNAME: 'kalyani_yedla_7'
-        PASSWORD: 'QN3j!79Ld3s!HZ7'
-        KEY: 'Mulesoft12345678'
+        USERNAME: ${{ secrets.anypoint_platform_username }}
+        PASSWORD: ${{ secrets.anypoint_platform_password }}
+        KEY: ${{ secrets.decryption_key }}
       run: |
-        artifactName=$(find . -name '*.jar' | head -1)
+        artifactName=$(ls *.jar | head -1)
         mvn deploy -DskipMunitTests -DmuleDeploy \
          -Dmule.artifact=$artifactName \
          -Danypoint.username="$USERNAME" \
