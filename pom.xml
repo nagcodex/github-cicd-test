@@ -40,7 +40,7 @@
 						<password>${anypoint.password}</password>
 						<applicationName>${app.name}</applicationName>
 						<environment>${env}</environment>
-						<target>${targetName}</target>
+						<target>cloudhub-us-east-1</target>
 						<replicas>1</replicas>
 					    <vCores>1</vCores>
 					
