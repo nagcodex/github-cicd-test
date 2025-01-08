@@ -40,9 +40,9 @@
 						<password>${anypoint.password}</password>
 						<applicationName>${app.name}</applicationName>
 						<environment>${env}</environment>
-						<workerType>MICRO</workerType>
-						<region>us-east-2</region>
-						<workers>1</workers>
+						<target>${targetName}</target>
+						<replicas>1</replicas>
+					    <vCores>1</vCores>
 						<objectStoreV2>true</objectStoreV2>
 						<!-- Start: SECURED PROPERTIES CI/CD -->
 						<properties>
