@@ -7,7 +7,7 @@
 	<version>1.0.3-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>github-cicd-test-</name>
+	<name>github-cicd-test-dev</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -47,7 +47,7 @@
 					
 						<!-- End: SECURED PROPERTIES CI/CD -->
 					</cloudhub2Deployment>
-					<classifier>mule-application</classifier>
+				
 				</configuration>
 			</plugin>
 			<plugin>
