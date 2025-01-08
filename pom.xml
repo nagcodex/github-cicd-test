@@ -33,7 +33,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
+					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>${anypoint.username}</username>
@@ -49,7 +49,7 @@
 							<secure.key>${decryption.key}</secure.key>
 						</properties>
 						<!-- End: SECURED PROPERTIES CI/CD -->
-					</cloudHubDeployment>
+					</cloudhub2Deployment>
 					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
