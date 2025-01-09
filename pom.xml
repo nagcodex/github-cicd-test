@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>15b3917a-f0f9-48eb-8804-8e848cec28ff</groupId> <!-- make sure to add your business group ID here -->
+	<groupId>6724dcdb-a338-4a2c-95b3-f1ad9e76106e</groupId> <!-- make sure to add your business group ID here -->
 	<artifactId>github-cicd-test-updated</artifactId>
-	<version>1.0.2</version> <!-- this has to change EVERY TIME you want to re-deploy -->
+	<version>1.0.3</version> <!-- this has to change EVERY TIME you want to re-deploy -->
 	<packaging>mule-application</packaging>
 	<name>github-actions-updated</name>
 	<properties>
@@ -12,7 +12,7 @@
 		<mule.maven.plugin.version>4.1.1</mule.maven.plugin.version> <!-- use at least v4.1.0 -->
 		<env>Sandbox</env>
 		<releaseChannel>EDGE</releaseChannel> <!-- use `NONE` for Mule Runtime 4.4 or `LTS`/`EDGE` for 4.6+ -->
-		 <!-- <region>Cloudhub-US-East-2</region> make sure it's one of these Target Names: https://docs.mulesoft.com/cloudhub-2/ch2-architecture#regions-and-dns-records -->
+		 <region>Cloudhub-US-East-2</region> <!-- make sure it's one of these Target Names: https://docs.mulesoft.com/cloudhub-2/ch2-architecture#regions-and-dns-records -->
 			<!-- note: free trial accounts only have access to Cloudhub-US-East-2 -->
 		<serverId>Repository</serverId> <!-- can be whatever you want, just make sure it matches the settings.xml -->
 		<munit.version>3.1.0</munit.version>
