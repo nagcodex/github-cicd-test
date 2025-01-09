@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>15b3917a-f0f9-48eb-8804-8e848cec28ff</groupId> <!-- make sure to add your business group ID here -->
 	<artifactId>github-cicd-test-updated</artifactId>
-	<version>1.0.10</version> <!-- this has to change EVERY TIME you want to re-deploy -->
+	<version>1.0.1</version> <!-- this has to change EVERY TIME you want to re-deploy -->
 	<packaging>mule-application</packaging>
 	<name>github-actions-updated</name>
 	<properties>
